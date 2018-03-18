@@ -3,6 +3,8 @@ python:
   - "2.7"
 install:
   - pip install codecov
+  - pip install coverage
+  - coverage run test.py
 script:
   - python test.py
   - codecov && codecov -t 1f36401c-a237-4fd4-a9c5-22718a3f503b
