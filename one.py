@@ -3,3 +3,5 @@ def fun(x):
 
 def two(y):
     return y+2
+def three(z):
+    return z+7
