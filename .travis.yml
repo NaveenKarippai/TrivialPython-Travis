@@ -10,9 +10,3 @@ script:
   - codecov && codecov -t 1f36401c-a237-4fd4-a9c5-22718a3f503b
 git:
   depth: 1
-jobs:
-  include:
-    - stage: test
-      script ./test
-    - stage: parallel
-      script ./test_one
